@@ -29,6 +29,7 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 <div class="header-container">
+	<div id="url"></div>
 	<header class="wrapper clearfix">
                 <span id="trigger" onClick="toggleNav()">
                     <span class="triggerLine"></span>
@@ -335,5 +336,8 @@
 		</p>
 	</footer>
 </div>
+<script>
+	document.getElementById("url").innerHTML=window.location.href
+</script>
 </body>
 </html>
